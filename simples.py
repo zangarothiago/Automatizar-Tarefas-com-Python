@@ -18,7 +18,7 @@ def acessar_simples_nacional(cnpj):
     py.sleep(2) 
     py.press('enter')
     py.sleep(2)
-    py.click(x=320, y=366)
+    py.click(x=320, y=366) #click no link do simples consultado
     py.sleep(2) 
     py.click(x=226, y=417)
     py.sleep(2)
@@ -49,3 +49,4 @@ def main():
         messagebox.showwarning("Aviso", "Você não digitou o CNPJ.")
 
 main()
+
